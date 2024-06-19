@@ -1,10 +1,10 @@
 :root{
-    --A: #3c2e62;
-    --G: #fcf3e8;;
-    --C: #d9cda1;
-    --T: #5d4a86;
-	--alto: 28px;
-    --ancho: 4px;
+    --A: #000000;
+    --G: #FFFFFF;
+    --C: #666666;
+    --T: #333333;
+	--alto: 12px;
+    --ancho: 2px;
 }
 body{
     background-color: var(--A);
@@ -25,7 +25,7 @@ div#tablero{
 
 div.linea {
     clear: both;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 div.linea > div {
     float: left;
@@ -33,7 +33,6 @@ div.linea > div {
     line-height: var(--alto);
     margin-right: 0px;
     margin-bottom: 10px;
-    border-radius: 2px;
 }
 
 div.linea > div::before{

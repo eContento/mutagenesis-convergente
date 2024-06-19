@@ -1,7 +1,7 @@
 # text-to-dna
 En el contexto de la integración contínua de mi novela «Mutagénesis Convergente», me plantee hacer una secuencia de ADN para acompañar a la sinopsis en la contracubierta. Algo así.
 
-![Contracubierta de «Mutagénesis Convergente»](./img/01_contracubierta.png)
+![Contracubierta de «Mutagénesis Convergente»](./img/01_contracubierta.webp)
 
 Yo había visto esa secuenciación en una imagen, pero claro, pensé ¿y si en dicha secuencia escribiese yo mi propio mensaje? Y ahí me puse a pensar…
 
@@ -92,3 +92,10 @@ Quedando la codificación al final:
 
 
 Ya estamos listos para codificar cualquier texto en cadenas de ADN
+
+## Programita
+Me he hecho un simple HTML, que tiene un mapeo de las letras a codones, Y en base a eso genera el gráfico.
+Toda la magia está en el index.html, main.css y funciones.js
+
+Os dejo con la secuenciación de La Canción del Pirata
+![Secuanciación de «La Canción del Pirata»](./img/secuenciacion-cancion-del-pirata.webp)

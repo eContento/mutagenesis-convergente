@@ -36,7 +36,7 @@ function toDNA(){
         for(let j=0; j<lineas[i].length; j++){
             let l = lineas[i].charAt(j).toUpperCase();
             if ((l>="A" && l<="Z") || (l==" ")){
-                lineaDNA += letra[l][0];
+                lineaDNA += fetchCodon(letra[l]);
             }
         }
         pintar(lineaDNA);
@@ -54,4 +54,10 @@ function pintar(adn){
         linea.appendChild(letraElement);
     }
     tablero.appendChild(linea);
+}
+
+function fetchCodon(a){
+    const max = a.length;
+    const i = Math.floor(Math.random() * max);
+    return a[i];
 }

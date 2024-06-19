@@ -1,9 +1,11 @@
 # text-to-dna
 En el contexto de la integración contínua de mi novela «Mutagénesis Convergente», me plantee hacer una secuencia de ADN para acompañar a la sinopsis en la contracubierta. Algo así.
 
-![Contracubierta de «Mutagénesis Convergente»](./img/01_contracubierta.webp)
+![Contracubierta de «Mutagénesis Convergente»](./img/cubierta.webp)
 
 Yo había visto esa secuenciación en una imagen, pero claro, pensé ¿y si en dicha secuencia escribiese yo mi propio mensaje? Y ahí me puse a pensar…
+
+![Contracubierta de «Mutagénesis Convergente»](./img/secuenciacion.webp)
 
 ## Codificación del ADN
 Sabemos, que el código genético está formado por un alfabeto de cuatro letras llamadas nucleótidos.

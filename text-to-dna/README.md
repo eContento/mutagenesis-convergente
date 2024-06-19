@@ -46,7 +46,7 @@ Existen 20 aminoácidos
 | Y     | Tyr         | Tirosina        | TAT, TAC           |
 | Z     | -           | -               | -                  |
 
-Como véis los 20 aminoácidos proyectan codones sobre una letra, pero hay 6 que no están: B, J, O, U, X y Z. Lo que se hace es repartir los codones de sus predecesores con ellos. De esta forma
+Como véis los 20 aminoácidos proyectan codones sobre una letra, pero hay 6 que no están: B, J, O, U, X y Z. Lo que se hace es repartir los codones de sus predecesores con ellos. Y para el caracter «espacio» voy a usar un codón de la serina AGC. De esta forma
 
 | Letra | Abreviatura | Aminoácido      | Codones            |
 | ----- | ----------- | --------------- | ------------------ |
@@ -56,6 +56,8 @@ Como véis los 20 aminoácidos proyectan codones sobre una letra, pero hay 6 que
 | U     | -           | Treonina (2)    | ACC, ACG           | 
 | X     | -           | Valina (2)      | GTT, GTC           |
 | Z     | -           | Tirosina (2)    | TAC                |
+| Esp   | -           | Serica   (2)    | AGC                |
+
 
 Quedando la codificación al final:
 | Letra | Abreviatura | Aminoácido      | Codones            |
@@ -78,7 +80,7 @@ Quedando la codificación al final:
 | P     | Pro         | Prolina         | CCA, CCT, CCG, CCC |  
 | Q     | Gln         | Glutamina       | CAG, CAA           | 
 | R     | Arg         | Arginina        | AGA, AGG, CGT, CGC, CGA, CGG |
-| S     | Ser         | Serina          | TCT, TCC, TCA, TCG, AGT, AGC |
+| S     | Ser         | Serina          | TCT, TCC, TCA, TCG, AGT      |
 | T     | Thr         | Treonina        | ACT, ACA           |
 | U     | -           | Treonina (2)    | ACC, ACG           |
 | V     | Val         | Valina          | GTA, GTG           | 
@@ -86,5 +88,7 @@ Quedando la codificación al final:
 | X     | -           | Valina (2)      | GTT, GTC           |
 | Y     | Tyr         | Tirosina        | TAT, TAC           |
 | Z     | -           | Tirosina (2)    | TAC                |
+| Esp   | -           | Serina (2)      | AGC                |
+
 
 Ya estamos listos para codificar cualquier texto en cadenas de ADN

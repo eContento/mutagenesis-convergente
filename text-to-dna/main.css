@@ -1,0 +1,54 @@
+:root{
+    --A: #3c2e62;
+    --G: #fcf3e8;;
+    --C: #d9cda1;
+    --T: #5d4a86;
+	--alto: 28px;
+    --ancho: 4px;
+}
+body{
+    background-color: var(--A);
+}
+
+textarea{
+    width: 300px;
+    height: 600px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+div#tablero{
+    float: left;
+    padding: 2px 0px 10px 0px;
+}
+
+div.linea {
+    clear: both;
+    padding-bottom: 20px;
+}
+div.linea > div {
+    float: left;
+    width: var(--ancho);
+    line-height: var(--alto);
+    margin-right: 0px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+div.linea > div::before{
+    content: "\00a0";
+}
+
+div.A {
+    background-color: var(--A);
+}
+div.G {
+    background-color: var(--G);
+}
+div.C {
+    background-color: var(--C);
+}
+div.T {
+    background-color: var(--T);
+}
